@@ -184,7 +184,7 @@ async function showMainMenu(client, interaction, embedColor, totalCommands, tota
     new ButtonBuilder()
       .setLabel(t.mainMenu.buttons.github)
       .setStyle(ButtonStyle.Link)
-      .setURL('https://github.com/GlaceYT')
+      .setURL('https://www.instagram.com/showrob_7x')
   );
 
   const response = {
