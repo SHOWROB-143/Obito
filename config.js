@@ -3,8 +3,8 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1347799704397811734", ""], 
-  mongodbUri : "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
+  ownerID: ["475325687583211540", ""], 
+  mongodbUri : "mongodb+srv://showrob:showrob@discordbot.drfmdmb.mongodb.net/?retryWrites=true&w=magority",
   spotifyClientId : "d92baed9605a45a39ed7c2a2d960b1c1",
   spotifyClientSecret : "e9b29f6739de4315bc03b6d8a8e93b03",
   setupFilePath: './commands/setup.json',
@@ -13,9 +13,9 @@ module.exports = {
   activityName: "YouTube Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
-  embedTimeout: 5,
-  showProgressBar: false,  // Show progress bar in track embed
-  showVisualizer: false,  // Show visualizer on music card (disabled for low-memory optimization)
+  embedTimeout: 40,
+  showProgressBar: true,  // Show progress bar in track embed
+  showVisualizer: true,  // Show visualizer on music card (disabled for low-memory optimization)
   generateSongCard: true,  // custom song card image, if false uses thumbnail
   // Performance optimizations for low-memory environments (512MB RAM)
   lowMemoryMode: true,  // Enable optimizations for low-memory hosting
