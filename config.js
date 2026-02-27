@@ -23,9 +23,9 @@ module.exports = {
   nodes: [
      {
       name: "GlceYT",
-      password: "glace",
-      host: "de-01.strixnodes.com",
-      port: 2010,
+      password: "youshallnotpass",
+      host: "193.226.78.187",
+      port: 4985,
       secure: false
     }
   ]
